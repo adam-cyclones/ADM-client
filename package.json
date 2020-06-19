@@ -5,5 +5,22 @@
   "main": "index.js",
   "author": "adam.crockett@gmail.com",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-lit-element": "^1.2.0",
+    "prettier": "^2.0.0",
+    "snowpack": "^2.5.0",
+    "snowpack": "^2.5.2"
+  }
 }
