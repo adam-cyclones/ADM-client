@@ -1,0 +1,9 @@
+{
+  "name": "ADM-client",
+  "version": "1.0.0",
+  "description": "Adam Crockett's blog",
+  "main": "index.js",
+  "author": "adam.crockett@gmail.com",
+  "license": "MIT",
+  "private": false
+}
